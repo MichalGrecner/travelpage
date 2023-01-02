@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.cont {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header {
+  background-image: url("img/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.headerArea {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  align-content: end;
+}
+.headerText {
+  margin-bottom: 20px;
+}
+header h1 {
+  color: white;
+  text-align: right;
+  margin-right: 30px;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+p,
+h3 {
+  line-height: 1.3;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.aboutUsArea {
+  display: flex;
+  flex-direction: column;
+}
+.imgAboutUs {
+  background-image: url("/img/anneliese-phillips-uv4-vl3liKM-unsplash.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin: 20px;
+  height: 300px;
+}
+
+.whatWeDocont {
+  background-color: #33292a;
+  color: white;
+  text-align: center;
+}
+
+.icon {
+  width: 60px;
+  filter: invert(100%);
+  margin-top: 40px;
+}
+.whatWeDoIcons p {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.gridPics {
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: repeat(9, 50vw);
+
+  gap: 10px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+.gridCell {
+  background-size: cover;
+  width: 100%;
+  border-radius: 5px;
+  background-position: center center;
+}
+#c1 {
+  background-image: url("/img/simon-english-48nerZQCHgo-unsplash.jpg");
+}
+#c2 {
+  background-image: url("/img/james-wheeler-ZOA-cqKuJAA-unsplash.jpg");
+}
+#c3 {
+  background-image: url("/img/charles-black-F7HGqkkMYAU-unsplash.jpg");
+}
+#c4 {
+  background-image: url("/img/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg");
+}
+#c5 {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+#c5 p {
+  font-size: 10vw;
+}
+#c6 {
+  background-image: url("/img/patrick-szylar-45bM3XGqnDE-unsplash.jpg");
+}
+#c7 {
+  background-image: url("/img/chung-yee-tsang-wqxCKM0R6R8-unsplash.jpg");
+}
+#c8 {
+  background-image: url("/img/julian-bialowas-ilkTnuMunP8-unsplash.jpg");
+}
+#c9 {
+  background-image: url("/img/matej-drha-rbDzMcJsBkY-unsplash.jpg");
+}
+
+.whereDoYouCont {
+  background-color: #644b4f;
+  color: white;
+  padding-top: 60px;
+}
+
+.whereDoYouCont h2 {
+  padding: 0 20px 0 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+#btn {
+  margin: 40px 0 0 20px;
+  width: 110px;
+  height: 30px;
+  border-radius: 5px;
+}
+#btn:hover {
+  background-color: #e9877b;
+}
+.reviewsCont {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.expPhotoimg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.footerImgDiv {
+  width: 100%;
+  height: 100vw;
+  background-size: cover;
+  background-position: center center;
+}
+.footerImg1 {
+  background-image: url("/img/alexey-fedenkov-BaCZYH9RLmQ-unsplash.jpg");
+}
+.footerImg2 {
+  background-image: url("/img/omer-salom-LoijtQXXNhs-unsplash.jpg");
+}
+.footerImg3 {
+  background-image: url("/img/vincentiu-solomon-7MH4ped6_Mo-unsplash.jpg");
+}
+.footerImg4 {
+  background-image: url("/img/daniel-tseng-73lmMKhi2U8-unsplash.jpg");
+}
+.footerCont {
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  margin-top: 30px;
+  font-size: 20px;
+}
+.contact a {
+  color: #efa69d;
+}
+.contact a:hover {
+  color: #e9877b;
+}
+.footerText {
+  margin-bottom: 30px;
+}
+.footerText p {
+  color: white;
+}
+
+@media (min-width: 576px) {
+  header h1 {
+    color: white;
+    text-align: right;
+    font-size: 50px;
+  }
+  .aboutUsArea {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .imgAboutUs {
+    background-image: url("/img/anneliese-phillips-uv4-vl3liKM-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    height:auto;
+    margin:0 20px 0 0;
+  }
+  .aboutUstext {
+    width: 50%;
+  }
+
+  .whatWeDoIcons {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+
+  .gridPics {
+    margin: 0 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .gridCell {
+    background-size: cover;
+    height: 300px;
+  }
+  #c5 p {
+    font-size: 6vw;
+  }
+  .WhereDoYouContText h2 {
+    grid-area: leftCol;
+    font-size: 50px;
+  }
+  .whereMainText {
+    grid-area: rightUp;
+  }
+  .WhereContact {
+    grid-area: rightMiddle;
+  }
+  #btn {
+    grid-area: rightBottom;
+  }
+  .WhereDoYouContText {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "leftCol rightUp"
+      "leftCol rightMiddle"
+      "leftCol rightBottom";
+  }
+  .reviewsExps {
+    display: flex;
+  }
+  .footerImgDiv {
+    height: 300px;
+  }
+  .photosFooterCont {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .contentArea {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 700px;
+  }
+  .gridPics {
+    margin-top: 30px;
+  }
+  #c5 p {
+    font-size: 40px;
+  }
+}
