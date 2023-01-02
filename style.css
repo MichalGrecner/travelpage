@@ -50,7 +50,7 @@ h3 {
   flex-direction: column;
 }
 .imgAboutUs {
-  background-image: url("/img/anneliese-phillips-uv4-vl3liKM-unsplash.jpg");
+  background-image: url("img/anneliese-phillips-uv4-vl3liKM-unsplash.jpg");
   background-size: cover;
   background-position: center center;
   margin: 20px;
@@ -91,16 +91,16 @@ h3 {
   background-position: center center;
 }
 #c1 {
-  background-image: url("/img/simon-english-48nerZQCHgo-unsplash.jpg");
+  background-image: url("img/simon-english-48nerZQCHgo-unsplash.jpg");
 }
 #c2 {
-  background-image: url("/img/james-wheeler-ZOA-cqKuJAA-unsplash.jpg");
+  background-image: url("img/james-wheeler-ZOA-cqKuJAA-unsplash.jpg");
 }
 #c3 {
-  background-image: url("/img/charles-black-F7HGqkkMYAU-unsplash.jpg");
+  background-image: url("img/charles-black-F7HGqkkMYAU-unsplash.jpg");
 }
 #c4 {
-  background-image: url("/img/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg");
+  background-image: url("img/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg");
 }
 #c5 {
   background-color: #f2f2f2;
@@ -114,16 +114,16 @@ h3 {
   font-size: 10vw;
 }
 #c6 {
-  background-image: url("/img/patrick-szylar-45bM3XGqnDE-unsplash.jpg");
+  background-image: url("img/patrick-szylar-45bM3XGqnDE-unsplash.jpg");
 }
 #c7 {
-  background-image: url("/img/chung-yee-tsang-wqxCKM0R6R8-unsplash.jpg");
+  background-image: url("img/chung-yee-tsang-wqxCKM0R6R8-unsplash.jpg");
 }
 #c8 {
-  background-image: url("/img/julian-bialowas-ilkTnuMunP8-unsplash.jpg");
+  background-image: url("img/julian-bialowas-ilkTnuMunP8-unsplash.jpg");
 }
 #c9 {
-  background-image: url("/img/matej-drha-rbDzMcJsBkY-unsplash.jpg");
+  background-image: url("img/matej-drha-rbDzMcJsBkY-unsplash.jpg");
 }
 
 .whereDoYouCont {
@@ -166,16 +166,16 @@ h3 {
   background-position: center center;
 }
 .footerImg1 {
-  background-image: url("/img/alexey-fedenkov-BaCZYH9RLmQ-unsplash.jpg");
+  background-image: url("img/alexey-fedenkov-BaCZYH9RLmQ-unsplash.jpg");
 }
 .footerImg2 {
-  background-image: url("/img/omer-salom-LoijtQXXNhs-unsplash.jpg");
+  background-image: url("img/omer-salom-LoijtQXXNhs-unsplash.jpg");
 }
 .footerImg3 {
-  background-image: url("/img/vincentiu-solomon-7MH4ped6_Mo-unsplash.jpg");
+  background-image: url("img/vincentiu-solomon-7MH4ped6_Mo-unsplash.jpg");
 }
 .footerImg4 {
-  background-image: url("/img/daniel-tseng-73lmMKhi2U8-unsplash.jpg");
+  background-image: url("img/daniel-tseng-73lmMKhi2U8-unsplash.jpg");
 }
 .footerCont {
   background-color: #333333;
@@ -213,7 +213,7 @@ h3 {
     
   }
   .imgAboutUs {
-    background-image: url("/img/anneliese-phillips-uv4-vl3liKM-unsplash.jpg");
+    background-image: url("img/anneliese-phillips-uv4-vl3liKM-unsplash.jpg");
     background-size: cover;
     background-position: center center;
     width: 50%;
